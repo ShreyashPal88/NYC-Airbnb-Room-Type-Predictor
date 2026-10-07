@@ -18,7 +18,7 @@ COLUMNS = ["latitude", "longitude", "price", "minimum_nights",
     "calculated_host_listings_count", "availability_365",
     "neighbourhood_group", "neighbourhood",]
 
-model = joblib.load('Model_pipeline.pkl')
+model = joblib.load('model_Pipeline.pkl')
 
 #Pydantic model
 class Features(BaseModel):
